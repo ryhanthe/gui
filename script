@@ -1,0 +1,209 @@
+--var
+local SCRIMSKeySystem = Instance.new("ScreenGui")
+local MainFramekey = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local logo = Instance.new("ImageLabel")
+local PasswordBox = Instance.new("TextBox")
+local submitbutton = Instance.new("TextButton")
+local example = Instance.new("TextButton")
+local line = Instance.new("Frame")
+local example1 = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local Frame = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local example2 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Frame_2 = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local example3 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Frame_3 = Instance.new("Frame")
+local UICorner_7 = Instance.new("UICorner")
+local example_2 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local Frame_4 = Instance.new("Frame")
+local UICorner_9 = Instance.new("UICorner")
+
+--Properties
+
+SCRIMSKeySystem.Name = "SCRIMSKeySystem"
+SCRIMSKeySystem.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+SCRIMSKeySystem.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+MainFramekey.Name = "MainFramekey"
+MainFramekey.Parent = SCRIMSKeySystem
+MainFramekey.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+MainFramekey.BorderColor3 = Color3.fromRGB(255, 255, 255)
+MainFramekey.BorderSizePixel = 0
+MainFramekey.Position = UDim2.new(0.36564225, 0, 0.244152084, 0)
+MainFramekey.Size = UDim2.new(0, 388, 0, 217)
+
+UICorner.CornerRadius = UDim.new(0, 14)
+UICorner.Parent = MainFramekey
+
+logo.Name = "logo"
+logo.Parent = MainFramekey
+logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+logo.BackgroundTransparency = 1.000
+logo.BorderColor3 = Color3.fromRGB(0, 0, 0)
+logo.BorderSizePixel = 0
+logo.Position = UDim2.new(0.0382352956, 0, 0.0180180185, 0)
+logo.Size = UDim2.new(0, 35, 0, 35)
+logo.Image = "rbxassetid://14920666198"
+logo.ImageColor3 = Color3.fromRGB(255, 0, 0)
+
+PasswordBox.Name = "PasswordBox"
+PasswordBox.Parent = MainFramekey
+PasswordBox.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+PasswordBox.BorderColor3 = Color3.fromRGB(255, 0, 4)
+PasswordBox.Position = UDim2.new(0.434657305, 0, 0.213572979, 0)
+PasswordBox.Size = UDim2.new(0, 202, 0, 33)
+PasswordBox.Font = Enum.Font.Arcade
+PasswordBox.Text = "Key here"
+PasswordBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+PasswordBox.TextSize = 14.000
+PasswordBox.TextStrokeTransparency = 0.000
+
+submitbutton.Name = "submitbutton"
+submitbutton.Parent = MainFramekey
+submitbutton.BackgroundColor3 = Color3.fromRGB(65, 105, 225)
+submitbutton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+submitbutton.Position = UDim2.new(0.477583408, 0, 0.405529946, 0)
+submitbutton.Size = UDim2.new(0, 168, 0, 24)
+submitbutton.Font = Enum.Font.Unknown
+submitbutton.Text = "Submit"
+submitbutton.TextColor3 = Color3.fromRGB(193, 193, 193)
+submitbutton.TextSize = 20.000
+submitbutton.TextStrokeTransparency = 0.000
+
+example.Name = "example"
+example.Parent = MainFramekey
+example.BackgroundColor3 = Color3.fromRGB(65, 105, 225)
+example.BorderColor3 = Color3.fromRGB(0, 0, 0)
+example.BorderSizePixel = 0
+example.Position = UDim2.new(0.0566101074, 0, 0.806451619, 0)
+example.Size = UDim2.new(0, 99, 0, 25)
+example.Font = Enum.Font.Arcade
+example.Text = "Btn"
+example.TextColor3 = Color3.fromRGB(255, 255, 255)
+example.TextSize = 14.000
+
+line.Name = "line"
+line.Parent = example
+line.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+line.BorderColor3 = Color3.fromRGB(0, 0, 0)
+line.BorderSizePixel = 0
+line.Position = UDim2.new(0.49494949, 0, -4.19999981, 0)
+line.Size = UDim2.new(0, 1, 0, 105)
+
+example1.Name = "example1"
+example1.Parent = example
+example1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+example1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+example1.BorderSizePixel = 0
+example1.Position = UDim2.new(-0.191919193, 0, -1.08000004, 0)
+example1.Size = UDim2.new(0, 142, 0, 16)
+example1.Font = Enum.Font.SourceSans
+example1.Text = "$Color-Button-Prim"
+example1.TextColor3 = Color3.fromRGB(0, 0, 0)
+example1.TextSize = 14.000
+
+UICorner_2.CornerRadius = UDim.new(0, 50)
+UICorner_2.Parent = example1
+
+Frame.Parent = example1
+Frame.BackgroundColor3 = Color3.fromRGB(65, 105, 225)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.0281690136, 0, 0.125, 0)
+Frame.Size = UDim2.new(0, 12, 0, 12)
+
+UICorner_3.CornerRadius = UDim.new(0, 120)
+UICorner_3.Parent = Frame
+
+example2.Name = "example2"
+example2.Parent = example
+example2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+example2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+example2.BorderSizePixel = 0
+example2.Position = UDim2.new(0.0707070678, 0, -2.16000009, 0)
+example2.Size = UDim2.new(0, 85, 0, 16)
+example2.Font = Enum.Font.SourceSans
+example2.Text = "$Color-Cta"
+example2.TextColor3 = Color3.fromRGB(0, 0, 0)
+example2.TextSize = 14.000
+
+UICorner_4.CornerRadius = UDim.new(0, 50)
+UICorner_4.Parent = example2
+
+Frame_2.Parent = example2
+Frame_2.BackgroundColor3 = Color3.fromRGB(65, 105, 225)
+Frame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0.0281690136, 0, 0.125, 0)
+Frame_2.Size = UDim2.new(0, 12, 0, 12)
+
+UICorner_5.CornerRadius = UDim.new(0, 120)
+UICorner_5.Parent = Frame_2
+
+example3.Name = "example3"
+example3.Parent = example
+example3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+example3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+example3.BorderSizePixel = 0
+example3.Position = UDim2.new(0.141414136, 0, -3.31999993, 0)
+example3.Size = UDim2.new(0, 85, 0, 16)
+example3.Font = Enum.Font.SourceSans
+example3.Text = "$Color-th"
+example3.TextColor3 = Color3.fromRGB(0, 0, 0)
+example3.TextSize = 14.000
+
+UICorner_6.CornerRadius = UDim.new(0, 50)
+UICorner_6.Parent = example3
+
+Frame_3.Parent = example3
+Frame_3.BackgroundColor3 = Color3.fromRGB(65, 105, 225)
+Frame_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(0.0281690136, 0, 0.125, 0)
+Frame_3.Size = UDim2.new(0, 12, 0, 12)
+
+UICorner_7.CornerRadius = UDim.new(0, 120)
+UICorner_7.Parent = Frame_3
+
+example_2.Name = "example"
+example_2.Parent = example
+example_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+example_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+example_2.BorderSizePixel = 0
+example_2.Position = UDim2.new(-0.151515156, 0, -5, 0)
+example_2.Size = UDim2.new(0, 128, 0, 29)
+example_2.Font = Enum.Font.SourceSans
+example_2.Text = "$color-base"
+example_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+example_2.TextSize = 14.000
+
+UICorner_8.CornerRadius = UDim.new(0, 40)
+UICorner_8.Parent = example_2
+
+Frame_4.Parent = example_2
+Frame_4.BackgroundColor3 = Color3.fromRGB(65, 105, 225)
+Frame_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_4.BorderSizePixel = 0
+Frame_4.Position = UDim2.new(0.0546875, 0, 0.0905172378, 0)
+Frame_4.Size = UDim2.new(0, 23, 0, 23)
+
+UICorner_9.CornerRadius = UDim.new(0, 120)
+UICorner_9.Parent = Frame_4
+
+-- Scripts:
+
+local function BENXDD_fake_script() -- SCRIMSKeySystem.dragable 
+	local script = Instance.new('Script', SCRIMSKeySystem)
+
+	frame = script.Parent.MainFramekey
+	frame.Draggable = true
+	frame.Active = true
+	frame.Selectable = true
+end
+coroutine.wrap(BENXDD_fake_script)()
